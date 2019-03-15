@@ -26,7 +26,7 @@ public class HomeController {
 
     @GetMapping("/add")
     public String newActors(Model model){
-        model.addAttribute("actors", new Actor());
+        model.addAttribute("actor", new Actor());
         return "form";
     }
 
